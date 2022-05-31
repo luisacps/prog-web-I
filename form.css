@@ -1,0 +1,41 @@
+* {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #daf1ff;
+        font-family: sans-serif;
+        font-size: 1em;
+        color: black;
+        margin-left: 2%
+    }
+
+    #titulo {
+        font-family: sans-serif;
+        color: purple;
+        margin-left: 0.2%;
+    }
+
+    fieldset {
+        border:0;
+    }
+
+    input, select, textarea, button {
+        border-radius: 5px;
+    }
+
+    .grupo legend {
+        margin-bottom: 0.2em;
+        font-weight: bold;
+        color: darkcyan;
+    }
+
+    .botao {
+        font-size: 15px;
+        padding: 6px 8px;
+    }
+
+    .botao:hover {
+        background-color: #daf1ff;
+    }
