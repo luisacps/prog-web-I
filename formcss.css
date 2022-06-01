@@ -1,41 +1,37 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
+        * {
         background-color: #daf1ff;
+    }
+    body {
+        border: 3px solid #bd04bd;
+        padding: 10px;
         font-family: sans-serif;
-        font-size: 1em;
-        color: black;
-        margin-left: 2%
     }
-
-    #titulo {
-        font-family: sans-serif;
-        color: purple;
-        margin-left: 0.2%;
+    h1 {
+        color:purple;
+        font-weight: bold;
+        font-size: 2em;
     }
-
-    fieldset {
-        border:0;
+    fieldset legend {
+        color: darkcyan;
+        font-size: 1.2em;
     }
-
-    input, select, textarea, button {
-        border-radius: 5px;
-    }
-
-    .grupo legend {
-        margin-bottom: 0.2em;
+    button {
+        font-size: 15px;
+        padding: 6px 8px;
+        border-color: purple;
         font-weight: bold;
         color: darkcyan;
     }
-
-    .botao {
-        font-size: 15px;
-        padding: 6px 8px;
+    button:hover {
+        background-color: #bd04bd;
+        color: #daf1ff;
     }
-
-    .botao:hover {
-        background-color: #daf1ff;
+    fieldset {
+        border: 2px solid purple;
+    }
+    #tamanhos {
+        font-size: 15px;
+    }
+    input[type="text"]:focus, select:focus, textarea:focus {
+        background-color: white;
     }
