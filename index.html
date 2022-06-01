@@ -6,29 +6,29 @@
         </head>
         <body>
             <div>
-                <h1 id="titulo">Formulário: monte seu açaí</h1>
+                <h1>Formulário: monte seu açaí</h1>
             </div>
             <div>
                 <form action="" method="get">
                     <div>
-                        <input type="text" name="nome" placeholder="Nome do cliente" required>
-                    </div>
-                    <br>
-                    <div>
-                        <fieldset class="grupo">
-                            <legend>Tamanhos disponíveis:</legend>
-                            <select name="tamanho" id="tamanhos" required>
-                                <option selected disabled value="">Tamanhos</option>
-                                <option value="300">Copo 300ml</option>
-                                <option value="500">Copo 500ml</option>
-                                <option value="700">Pote 700ml</option>
-                                <option value="1000">Pote 1L</option>
-                            </select>
-                        </fieldset>
+                        <input id="nome" type="text" name="nome" placeholder="Nome do cliente" required>
                     </div>
                 <br>
                 <div>
-                    <fieldset class="grupo">
+                    <fieldset>
+                        <legend>Tamanhos disponíveis:</legend>
+                        <select name="tamanho" id="tamanhos" required>
+                            <option selected disabled value="">Tamanhos</option>
+                            <option value="300">Copo 300ml</option>
+                            <option value="500">Copo 500ml</option>
+                            <option value="700">Pote 700ml</option>
+                            <option value="1000">Pote 1L</option>
+                        </select>
+                    </fieldset>
+                </div>
+                <br>
+                <div>
+                    <fieldset>
                         <legend>Frutas:</legend>
                         <input type="checkbox" name="fruta" value="morango">Morango
                         <input type="checkbox" name="fruta" value="banana">Banana
@@ -37,27 +37,27 @@
                 </div>
                 <br>
                 <div>
-                    <fieldset class="grupo">
+                    <fieldset>
                         <legend>Coberturas:</legend>
                         <input type="checkbox" name="cobertura" value="leite condensado">Leite condensado
-                    <input type="checkbox" name="cobertura" value="calda de morango">Calda de morango
-                    <input type="checkbox" name="cobertura" value="calda de chocolate">Calda de chocolate
+                        <input type="checkbox" name="cobertura" value="calda de morango">Calda de morango
+                        <input type="checkbox" name="cobertura" value="calda de chocolate">Calda de chocolate
                     </fieldset>
                 </div>
                 <br>
                 <div>
-                    <fieldset class="grupo">
+                    <fieldset>
                         <legend>Complementos:</legend>
                         <input type="checkbox" name="complemento" value="leite em pó">Leite em pó
-                    <input type="checkbox" name="complemento" value="granola">Granola
-                    <input type="checkbox" name="complemento" value="paçoca">Paçoca
-                    <input type="checkbox" name="complemento" value="granulado">Nutella
-                    <input type="checkbox" name="complemento" value="jujuba">Jujuba
+                        <input type="checkbox" name="complemento" value="granola">Granola
+                        <input type="checkbox" name="complemento" value="paçoca">Paçoca
+                        <input type="checkbox" name="complemento" value="granulado">Nutella
+                        <input type="checkbox" name="complemento" value="jujuba">Jujuba
                     </fieldset>
                 </div>
                 <br>
                 <div>
-                    <fieldset class="grupo">
+                    <fieldset>
                         <legend>Entrega:</legend>
                         <input type="radio" name="entrega" value="delivery"required>Delivery
                         <input type="radio" name="entrega" value="retirar" required>Retirar no estabelecimento<br>
@@ -65,14 +65,14 @@
                 </div>
                 <br>
                 <div>
-                    <fieldset class="grupo">
+                    <fieldset>
                         <legend>No caso de delivery, especifique o endereço:</legend>
                         <textarea row="5" style="width: 25cm" id="endereco" name="endereço"></textarea>
                     </fieldset>
                 </div>
                 <br>
                 <div>
-                    <button class="botao" type="submit">Enviar</button>
+                    <button type="submit">Enviar</button>
                 </div>
                 </form>
             </div>
